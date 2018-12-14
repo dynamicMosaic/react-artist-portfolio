@@ -1,2 +1,1 @@
-# react-artist-portfolio
-Basic Reactjs portfolio
+React Artist Portfolio using Instagram API
