@@ -20,7 +20,11 @@ class App extends Component {
             <Header title={this.props.title} />
             <MainNav />
             <Switch>
-              <Route exact path = "/" render= { () => <Main name='Peche Barone' /> } />
+
+              {/* Wrap route immediately below <Main/> in <Canvas/>? */}
+
+              <Route exact path = "/" render= { () => <Main name='Peche Barone' /> } /> 
+              
               <Route path="/recentwork" component={RecentWorkPage} />
               <Route component= { NotFound} />
             </Switch>
